@@ -5,12 +5,12 @@ using linkedlist::linkedList;
 
 int main()
 {
-    linkedList l;
+    linkedList<int>l;
     l.insertAtbegin(10);
     l.insertAtbegin(20);
     l.insertAtlast(27);
     l.insertAtlast(30);
-    l.insertAtPos(5, 25);
+    l.insertAtPos(5,25);
     l.display();
     std::cout << l.getLength() << '\n';
     l.deleteIndex(3);
